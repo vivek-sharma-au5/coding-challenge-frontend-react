@@ -1,0 +1,61 @@
+.main-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+.date-picker {
+  display: flex;
+  flex-direction: row;
+}
+
+.res-main {
+  display: flex;
+  width: 65%;
+  flex-direction: row;
+  border: 2px solid black;
+  padding: 1rem;
+  margin-left: 9%;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+.res-image {
+  border: 2px solid black;
+  width: 120px;
+  height: 120px;
+}
+.res-details {
+  margin: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.pagination {
+  background-color: goldenrod;
+}
+
+.pg-div {
+  display: flex;
+  justify-content: center;
+}
+
+.page-item {
+  color: black;
+}
+
+.page-item:hover {
+  color: whitesmoke;
+}
+.page-link :hover {
+  color: whitesmoke;
+}
+.page-link {
+  margin-top: 5px;
+}
+
+input[type="text"] {
+  border: 2px solid black;
+  border-radius: 0;
+}
